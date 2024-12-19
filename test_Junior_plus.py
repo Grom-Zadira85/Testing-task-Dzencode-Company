@@ -3,7 +3,7 @@ def test_add_vegetables(base_page):
     base_page.open_base_page()
     base_page.search()
 
-    base_page.add_carrot()
+    base_page.add_carrot("5")
     base_page.expect_pieces_carrot("5")
 
     base_page.add_mushroom()

@@ -14,12 +14,19 @@ class BasePage:
         search = self.page.locator('[placeholder="Search for Vegetables and Fruits"]')
         search.fill("ro")
 
-    def add_carrot(self):
-        carrot = self.page.locator('//div[h4[text()="Carrot - 1 Kg"]]//a[@class="increment"]')
-        carrot.click()
-        carrot.click()
-        carrot.click()
-        carrot.click()
+    # def add_carrot(self):
+    #     carrot = self.page.locator('//div[h4[text()="Carrot - 1 Kg"]]//a[@class="increment"]')
+    #     carrot.click()
+    #     carrot.click()
+    #     carrot.click()
+    #     carrot.click()
+
+    def add_carrot(self, quantity: str):
+        carrot = self.page.locator('//div[h4[text()="Carrot - 1 Kg"]]//*[@class="quantity"]')
+        carrot.fill(quantity)
+
+
+
 
     def expect_pieces_carrot(self, quantity: str):
         carrot_number = self.page.locator('(//*[@class="quantity"])[3]')
