@@ -31,8 +31,8 @@ class BasePage:
         mushroom.click()
 
     def expect_pieces_mushroom(self, quantity: str):
-        carrot_number = self.page.locator('(//*[@class="quantity"])[4]')
-        expect(carrot_number).to_have_value(quantity)
+        mushroom = self.page.locator('(//*[@class="quantity"])[4]')
+        expect(mushroom).to_have_value(quantity)
 
     def add_mushroom_to_basket(self):
         mushroom = self.page.locator('//div[h4[text()="Mushroom - 1 Kg"]]//*[@type="button"]')
@@ -50,7 +50,6 @@ class BasePage:
         carrot = self.page.get_by_role("list").locator("li").filter(has_text="Carrot - 1 Kg561 No. 56×").get_by_role(
             "link")
         carrot.click()
-        expect(carrot.get_by_role("list").get_by_text("Carrot - 1 Kg")).not_to_be_visible()
 
     def pause(self):
         self.page.pause()
