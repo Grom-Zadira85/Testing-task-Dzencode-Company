@@ -31,6 +31,12 @@
 - Опишите, для каких задач использовался каждый инструмент (например, Chrome DevTools для анализа производительности).
 - Запишите краткое сопроводительное видео с пояснением важных моментов выполнения задания (3 - 5 мин).
 
+
+### Ссылки на  тест-кейсы, баг репорты, отчет о тестировании к заданию 1.
+- Тест-кейсы:  https://docs.google.com/spreadsheets/d/1obAtBlEK3PGsGpssBkMc0bGYrxtxPgSkRB_-8SjqtOY/edit?gid=0#gid=0
+- Баг репорты:  https://docs.google.com/spreadsheets/d/1rRpzb79A3DcwWGCXF9Ph_QFP1vdWRg23CizFFfTsoEo/edit?gid=0#gid=0
+- Отчет о тестировании: https://docs.google.com/document/d/17cinJDT0T-dsQYWhxd49jM185chRtUzYAsl4Xs5BdjE/edit?usp=drive_web&ouid=105225717736391601721
+
 ---
 
 ## Автоматизированное тестирование (Junior+)
