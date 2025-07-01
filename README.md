@@ -36,7 +36,8 @@
 - Тест-кейсы:  https://docs.google.com/spreadsheets/d/1obAtBlEK3PGsGpssBkMc0bGYrxtxPgSkRB_-8SjqtOY/edit?gid=0#gid=0
 - Баг репорты:  https://docs.google.com/spreadsheets/d/1rRpzb79A3DcwWGCXF9Ph_QFP1vdWRg23CizFFfTsoEo/edit?gid=0#gid=0
 - Отчет о тестировании: https://docs.google.com/document/d/17cinJDT0T-dsQYWhxd49jM185chRtUzYAsl4Xs5BdjE/edit?usp=drive_web&ouid=105225717736391601721
-
+- Видео на ручное тестирование https://drive.google.com/file/d/1tWCdTNKMAWOnBrpEC1fyuscKvr9rHjhE/view?usp=sharing
+- Видео на автоматизированное тестирование  https://drive.google.com/file/d/1Qyq4NUZpSzASvFjTGD6s19l1jwopOrEf/view?usp=sharing
 ---
 
 ## Автоматизированное тестирование (Junior+)
